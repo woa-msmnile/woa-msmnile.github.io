@@ -224,5 +224,5 @@ ___
     * If you can boot windows, turn it to `FALSE` and have a try.
     * Set MLVM to `TRUE` will occupy about 300MB Ram.
 ___
-***Don't forget to add your device and maintainer into [README](../README.md).***  
+***Don't forget to add your device and maintainer into [README](https://github.com/woa-msmnile/msmnilePkg).***  
 ***Thanks for your hard works.***
