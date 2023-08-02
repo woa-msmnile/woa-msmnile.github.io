@@ -17,15 +17,18 @@ hero:
 features:
   - title: Stable
     details: Powered by Project MU
+    icon: ⚙️
   - title: Small
+    icon: ⚡
     details: Size < 10 MB
   - title: Safe
+    icon: 💧
     details: Each device uses their own firmware
-  # - title: Secure
-  #   details: Secure Boot Ready
   - title: Simple
-    details: Provide detailed instructions
-  #- title: 
-  #  details: 
+    icon: 📗
+    details: Detailed Documents and Friendly build system
+  # - title: Secure
+  #   icon: :lock:
+  #   details: Secure Boot Ready
 ---
 
