@@ -9,7 +9,7 @@ export default withMermaid(
     lastUpdated: true,
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
-      logo: '/images/Logov2.1.svg',
+      logo: 'https://avatars.githubusercontent.com/u/118143494',
 
       search: {
         provider: 'local'
