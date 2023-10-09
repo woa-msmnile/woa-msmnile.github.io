@@ -9,7 +9,7 @@
   <img src="/InstallationGuides/Resources/InstallDrivers/HowToDownload1.png" width=40%/>
   - For Sm8150 Devices, the repo is [msmnile-Drivers](https://github.com/woa-msmnile/msmnile-Drivers)
   - For Sm7125 Devices, the repo is [Atoll-Drivers](https://github.com/woa-msmnile/Atoll-Drivers)
-  - For others, please refer to [QC Silicons' Codename Reference Table](..\ReferenceTables\QCSiliconCodenameReferenceTable.md)  
+  - For others, please refer to [QC Silicons' Codename Reference Table](../ReferenceTables/QCSiliconCodenameReferenceTable.md)  
     and donwload the one named xxx-Drivers.
 
 - Download Device Specific Driver Pack
@@ -17,10 +17,10 @@
   <img src="/InstallationGuides/Resources/InstallDrivers/HowToDownload2.png" width=40%/>
   - For Xiaomi Pad 5, the repo is [Nabu](https://github.com/woa-msmnile/Nabu)
   - For Oneplus 7TP/7T, the repo is [Hotdog](https://github.com/woa-msmnile/Hotdog)
-  - For others, please refer to [Devices' Codename Reference Table](..\ReferenceTables\DeviceCodenameReferenceTable.md)  
+  - For others, please refer to [Devices' Codename Reference Table](../ReferenceTables/DeviceCodenameReferenceTable.md)  
     and donwload the one named xxx.
 
-- Let Your Device Enter [usb mass storage mode](.\EnterUMS.md).
+- Let Your Device Enter [usb mass storage mode](./EnterUMS.md).
   > Ideally situation is that you have applied windows to your disk just now and your phone is still in ums mode.
 
 
