@@ -38,6 +38,7 @@ export default withMermaid(
           text: 'Installation',
           items: [
             { text: 'Simple Installation Guide', link: '/InstallationGuides/WindowsInstallation' },
+            { text: 'Install Drivers', link: '/InstallationGuides/InstallDrivers.md'},
           ]
         },
         {
@@ -46,7 +47,14 @@ export default withMermaid(
             { text: 'Simple Guide', link: '/PortingGuides/SimpleGuide.md'},
             { text: 'Find Protocol Addresses For Kailua', link: '/PortingGuides/FindProtocolAddressesForKailua.md'},
           ]
-        }
+        },
+        {
+          text: 'Reference Tables',
+          items: [
+            { text: "QC Silicons' Codenames Reference", link: "/ReferenceTables/QCSiliconCodenameReferenceTable.md"},
+            { text: "Devices' Codenames Reference", link: "/ReferenceTables/DeviceCodenameReferenceTable.md"},
+          ]
+        },
       ],
 
       socialLinks: [
