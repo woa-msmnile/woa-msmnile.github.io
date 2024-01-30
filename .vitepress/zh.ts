@@ -10,8 +10,8 @@ export const zh = defineConfig({
       { text: '视频', link: '/zh/Videos/Introduction/Introduction', activeMatch: '/zh/Videos/' },
     ],
     sidebar: {
+      '/zh/': { base: '/zh', items: sidebarDocs() },
       '/zh/Videos/': { base: '/zh/Videos', items: sidebarVideos() },
-      '/zh/': { base: '/zh/', items: sidebarDocs() },
     },
     lastUpdated: {
       text: '最后更新于',
@@ -50,14 +50,15 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'Windows安装简述', link: '/InstallationGuides/WindowsInstallation' },
         { text: '驱动安装', link: '/InstallationGuides/InstallDrivers'},
+        { text: '教程收集', link: '/InstallationGuides/GuidesCollection'}
       ]
     },
     {
       text: 'UEFI移植',
       items: [
-        { text: '简易移植教程', link: '/PortingGuides/SimpleGuide'},
+        { text: '简易移植教程', link: '/PortingGuides/SimpleGuide'}
       ]
-    },
+    }
   ]
 }
 

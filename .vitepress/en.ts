@@ -13,7 +13,6 @@ export const en = defineConfig({
       '/Videos/': { base: '/Videos', items: sidebarVideos() },
       '/': { base: '', items: sidebarDocs() },
     },
-
     footer: {
       copyright: `CopyRight © 2022-${new Date().getFullYear()} woa-msmnile`
     },
@@ -27,28 +26,29 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       items: [
         { text: 'woa-msmnile', link: '/Introduction/organization'},
         { text: 'msmnilePkg', link: '/Introduction/msmnilePkg'},
-        { text: 'UEFI Porting Status', link: '/PortingStatus/PortingStatus.md'}
+        { text: 'UEFI Porting Status', link: '/PortingStatus/PortingStatus'}
       ]
     },
     {
       text: 'Installation',
       items: [
+        { text: 'Guides Collection', link: '/InstallationGuides/GuidesCollection'},
         { text: 'Simple Installation Guide', link: '/InstallationGuides/WindowsInstallation' },
-        { text: 'Install Drivers', link: '/InstallationGuides/InstallDrivers.md'},
+        { text: 'Install Drivers', link: '/InstallationGuides/InstallDrivers'},
       ]
     },
     {
       text: 'Porting UEFI',
       items: [
-        { text: 'Simple Guide', link: '/PortingGuides/SimpleGuide.md'},
-        { text: 'Find Protocol Addresses For Kailua', link: '/PortingGuides/FindProtocolAddressesForKailua.md'},
+        { text: 'Simple Guide', link: '/PortingGuides/SimpleGuide'},
+        { text: 'Find Protocol Addresses For Kailua', link: '/PortingGuides/FindProtocolAddressesForKailua'},
       ]
     },
     {
       text: 'Reference Tables',
       items: [
-        { text: "QC Silicons' Codenames Reference", link: "/ReferenceTables/QCSiliconCodenameReferenceTable.md"},
-        { text: "Devices' Codenames Reference", link: "/ReferenceTables/DeviceCodenameReferenceTable.md"},
+        { text: "QC Silicons' Codenames Reference", link: "/ReferenceTables/QCSiliconCodenameReferenceTable"},
+        { text: "Devices' Codenames Reference", link: "/ReferenceTables/DeviceCodenameReferenceTable"},
       ]
     },
   ]
