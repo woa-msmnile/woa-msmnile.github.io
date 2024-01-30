@@ -9,8 +9,8 @@ export default withMermaid(
     title: "woa-msmnile",
     lastUpdated: true,
     head: [
-      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/images/Logov2.1.svg' }],
-      ['link', { rel: 'icon', type: 'image/png', href: '/images/Logov2.1.png' }],
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: 'images/Logov2.1.svg' }],
+      ['link', { rel: 'icon', type: 'image/png', href: 'images/Logov2.1.png' }],
     ],
 
     locales: {
@@ -47,7 +47,7 @@ export default withMermaid(
       },
       socialLinks: [
         { icon: 'github', link: 'https://github.com/woa-msmnile' },
-        { icon: 'discord', link: 'https://discord.gg/zfh6RxYwb5' }        
+        { icon: 'discord', link: 'https://discord.gg/zfh6RxYwb5' }
       ],
     },
   })
