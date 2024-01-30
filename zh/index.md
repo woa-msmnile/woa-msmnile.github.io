@@ -12,7 +12,7 @@ hero:
       link: /zh/Introduction/organization
     - theme: alt
       text: 视频
-      link: /zh/videos/Introduction/Introduction
+      link: /zh/Videos/Introduction/Introduction
 
 features:
   - title: 稳定
