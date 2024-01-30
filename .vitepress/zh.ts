@@ -48,9 +48,9 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
     {
       text: '安装',
       items: [
+        { text: '教程收集', link: '/InstallationGuides/GuidesCollection'},
         { text: 'Windows安装简述', link: '/InstallationGuides/WindowsInstallation' },
-        { text: '驱动安装', link: '/InstallationGuides/InstallDrivers'},
-        { text: '教程收集', link: '/InstallationGuides/GuidesCollection'}
+        { text: '驱动安装', link: '/InstallationGuides/InstallDrivers'}
       ]
     },
     {
