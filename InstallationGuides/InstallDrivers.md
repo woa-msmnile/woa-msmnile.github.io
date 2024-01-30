@@ -27,7 +27,7 @@
   - For others, please refer to [Devices' Codename Reference Table](../ReferenceTables/DeviceCodenameReferenceTable.md)  
     and download the one named xxx.
 
-- Let Your Device Enter [usb mass storage mode](./EnterUMS.md).
+- Let Your Device Enter [usb mass storage mode](EnterUMS.md).
   > Ideally situation is that you have applied windows to your disk just now and your phone is still in ums mode.
 
 

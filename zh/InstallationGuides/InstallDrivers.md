@@ -21,9 +21,9 @@
   <img src="/InstallationGuides/Resources/InstallDrivers/HowToDownload2.png" width=40%/>
   - 对于小米平板五, 仓库在 [Nabu](https://github.com/woa-msmnile/Raphael).
   - 对于一加7T Pro, 仓库在 [Hotdog](https://github.com/woa-msmnile/Hotdog).
-  - 对于其他设备, 可以参考[设备代号参考表](../ReferenceTables/DeviceCodenameReferenceTable.md)类推.
+  - 对于其他设备, 可以参考[设备代号参考表](/ReferenceTables/DeviceCodenameReferenceTable.md)类推.
 
-- 手机进入大容量模式 [大容量模式](./EnterUMS.md).
+- 手机进入大容量模式 [大容量模式](EnterUMS.md).
   > 通常来说，刚刚释放完Windows，你的手机应该仍处于大容量模式下.
 
 
