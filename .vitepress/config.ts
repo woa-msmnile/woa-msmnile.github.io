@@ -1,65 +1,54 @@
 import { defineConfig } from 'vitepress'
 import { withMermaid } from "vitepress-plugin-mermaid"
+import { en } from './en'
+import { zh } from './zh'
 
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
     title: "woa-msmnile",
-    description: "Bring a New Life to Your Phone",
     lastUpdated: true,
+    head: [
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: '/images/Logov2.1.svg' }],
+      ['link', { rel: 'icon', type: 'image/png', href: '/images/Logov2.1.png' }],
+    ],
+
+    locales: {
+      root: { label: 'English', ...en },
+      zh: { label: '简体中文', ...zh }
+    },
+
     themeConfig: {
       // https://vitepress.dev/reference/default-theme-config
       logo: 'https://avatars.githubusercontent.com/u/118143494',
-
       search: {
-        provider: 'local'
+        provider: 'local',
+        options: {
+          locales: {
+            zh: {
+              translations: {
+                button: {
+                  buttonText: '搜索文档',
+                  buttonAriaLabel: '搜索文档'
+                },
+                modal: {
+                  noResultsText: '无法找到相关结果',
+                  resetButtonTitle: '清除查询条件',
+                  footer: {
+                    selectText: '选择',
+                    navigateText: '切换',
+                    closeText: '关闭'
+                  }
+                }
+              }
+            }
+          }
+        }
       },
-
-      editLink: {
-        text: 'Edit this page on Github',
-        pattern: 'https://github.com/woa-msmnile/woa-msmnile.github.io/edit/main/:path'
-      },
-
-      nav: [
-        { text: 'Home', link: '/' },
-        { text: 'Documents', link: '/Introduction/msmnilePkg' }
-      ],
-
-      sidebar: [
-        {
-          text: 'Introduction',
-          items: [
-            { text: 'woa-msmnile', link: '/Introduction/organization'},
-            { text: 'msmnilePkg', link: '/Introduction/msmnilePkg'},
-            { text: 'UEFI Porting Status', link: 'https://github.com/woa-msmnile/msmnilePkg#target-list'}
-          ]
-        },
-        {
-          text: 'Installation',
-          items: [
-            { text: 'Simple Installation Guide', link: '/InstallationGuides/WindowsInstallation' },
-            { text: 'Install Drivers', link: '/InstallationGuides/InstallDrivers.md'},
-          ]
-        },
-        {
-          text: 'Porting UEFI',
-          items: [
-            { text: 'Simple Guide', link: '/PortingGuides/SimpleGuide.md'},
-            { text: 'Find Protocol Addresses For Kailua', link: '/PortingGuides/FindProtocolAddressesForKailua.md'},
-          ]
-        },
-        {
-          text: 'Reference Tables',
-          items: [
-            { text: "QC Silicons' Codenames Reference", link: "/ReferenceTables/QCSiliconCodenameReferenceTable.md"},
-            { text: "Devices' Codenames Reference", link: "/ReferenceTables/DeviceCodenameReferenceTable.md"},
-          ]
-        },
-      ],
-
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/woa-msmnile' }
+        { icon: 'github', link: 'https://github.com/woa-msmnile' },
+        { icon: 'discord', link: 'https://discord.gg/zfh6RxYwb5' }        
       ],
-    }
+    },
   })
 )

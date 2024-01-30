@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: Documents
-      link: /Introduction/msmnilePkg
+      link: /Introduction/organization
     - theme: alt
       text: Videos
-      link: /
+      link: /Videos/Introduction/Introduction
 
 features:
   - title: Stable
@@ -27,8 +27,11 @@ features:
   - title: Simple
     icon: 📗
     details: Detailed Documents and Friendly build system
-  # - title: Secure
-  #   icon: :lock:
-  #   details: Secure Boot Ready
+  - title: Secure
+    icon: 🔒
+    details: Secure Boot Ready
+  - title: ''
+    icon: ''
+    details: ''
 ---
 

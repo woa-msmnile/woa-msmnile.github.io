@@ -1,5 +1,12 @@
 # Download and install drivers
 
+:::tip
+  Considering to SecureBoot and StableRelease, some devices' DriverPacks(e.g. XiaomiPad5, Xiaomi9) are released by their
+  maintainer, Please read their official installation guide.
+  Here explains a generic way to install drivers from GIT repository.
+:::
+
+
 ## Preparation
 - Download [DriverUpdater](https://github.com/WOA-Project/DriverUpdater/releases) by [WOA-Project](https://github.com/WOA-Project/)
   > Generally speaking please download the x64/x86 one, if **Your Computer** has more than one x86 CPU.

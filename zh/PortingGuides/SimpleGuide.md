@@ -1,7 +1,6 @@
 # msmnilePkg 移植向导. 
-## **[English Version](SimpleGuide.md)**
 :::danger
-  **⚠ 不要在谷歌、索尼和三星设备上尝试。**
+  **⚠ 建议不要在谷歌、索尼和三星设备上尝试。**
 :::
 
 > ### 此向导分为4步。

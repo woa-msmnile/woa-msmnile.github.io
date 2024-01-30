@@ -1,7 +1,4 @@
 # Windows安装方法简述
-## 语言
-- [English](WindowsInstallation.md)  
-- [简体中文](安装Windows简述.md)  
 
 ## 前言
   你需要准备以下材料：

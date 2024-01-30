@@ -1,5 +1,4 @@
 # msmnilePkg Porting Guide. 
-## **[中文版](简易移植教程.md)**
 :::danger
  **⚠ Do not try it on Google devices, Sony devices or Samsung devices.**
 :::
