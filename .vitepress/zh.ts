@@ -29,6 +29,10 @@ export const zh = defineConfig({
       prev: '上一页',
       next: '下一页'
     },
+    editLink: {
+      text: '在 Github 上编辑此页',
+      pattern: 'https://github.com/woa-msmnile/woa-msmnile.github.io/edit/main/:path'
+    },
     footer: {
       copyright: `版权所有 © 2022-${new Date().getFullYear()} woa-msmnile`
     },

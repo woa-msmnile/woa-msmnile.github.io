@@ -13,6 +13,10 @@ export const en = defineConfig({
       '/Videos/': { base: '/Videos', items: sidebarVideos() },
       '/': { base: '', items: sidebarDocs() },
     },
+    editLink: {
+      text: 'Edit this page on Github',
+      pattern: 'https://github.com/woa-msmnile/woa-msmnile.github.io/edit/main/:path'
+    },
     footer: {
       copyright: `CopyRight © 2022-${new Date().getFullYear()} woa-msmnile`
     },
