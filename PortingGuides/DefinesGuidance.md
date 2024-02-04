@@ -1,7 +1,7 @@
-# Defines Introduce
-> This Doc will indroduce some Defines you may need in Defines.dsc.inc
-___
-> **HAS_MLVM**  
+# Definitions
+> This Doc will introduce all definitions available in `Defines.dsc.inc`
+
+## **HAS_MLVM**  
   * Type
     - Boolean
   * Why define it ?
@@ -11,9 +11,13 @@ ___
     - If `HAS_MLVM = TRUE`, the MLVM regions will be reserved, so HLOS will not use this region.
     - Total RAM size will decrease about 400MB.
   * Where used it ?
-    - `HAS_MLVM` is used in Platforms/SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/ExtendedMemoryMap.h.
+    - `HAS_MLVM` is used in `Platforms/SurfaceDuoFamilyPkg/Driver/RamPartitionDxe/ExtendedMemoryMap.h`.
 
-> **CUST_PLATFORM_PRE_PI_LIB**  
+## **CUST_PLATFORM_PRE_PI_LIB**  
+  :::warning Deprecated
+  This definition and codes are removed.  
+  Please use DualBoot Patcher build dual boot kernel.
+  :::
   * Type
     - Boolean
   * Why define it ?
@@ -24,17 +28,17 @@ ___
       + return `FALSE`
         * boot to UEFI
   * What happened when **1**?
-    - The build-system will try to find PlatformPrePiLib under Device/$(brand-codename)/Library/PlatformPrePiLib/
+    - The build-system will try to find PlatformPrePiLib under `Device/$(brand-codename)/Library/PlatformPrePiLib/`
   * Where used it ?
-    - `CUST_PLATFORM_PRE_PI_LIB`  is used in Platforms/SurfaceDuoFamilyPkg/SurfaceDuoFamily.dsc.inc
+    - `CUST_PLATFORM_PRE_PI_LIB`  is used in `Platforms/SurfaceDuoFamilyPkg/SurfaceDuoFamily.dsc.inc`
     - Line: 395
 
-> **CUST_LOGO**  
+## **CUST_LOGO**  
   * Type
     - Boolean
   * Why define it ?
     - Some Device may want it's own logo. (i.e. Brand's Logo)
   * What happened when **1**?
-    - The Boot Logo will be replaced with the one under Device/$(brand-codename)/Include/Resources/CustBootLogo.bmp
+    - The Boot Logo will be replaced with the one under `Device/$(brand-codename)/Include/Resources/CustBootLogo.bmp`
   * Where used it ?
-    - `CUST_LOGO` is used in Platforms/SurfaceDuoFamilyPkg/Frontpage.fdf.inc
+    - `CUST_LOGO` is used in `Platforms/SurfaceDuoFamilyPkg/Frontpage.fdf.inc`
