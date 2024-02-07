@@ -42,9 +42,18 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       ]
     },
     {
+      text: 'Dual Boot',
+      items: [
+        { text: 'Introduction', link: '/DualBoot/Introduction'},
+        { text: 'Config', link: '/DualBoot/Config'},
+        { text: 'Shell Code', link: '/DualBoot/ShellCode'},
+      ]
+    },
+    {
       text: 'Porting UEFI',
       items: [
-        { text: 'Simple Guide', link: '/PortingGuides/SimpleGuide'},
+        { text: 'UEFI Porting Guide', link: '/PortingGuides/SimpleGuide'},
+        { text: 'Definitions', link: '/PortingGuides/DefinesGuidance'},
         { text: 'Find Protocol Addresses For Kailua', link: '/PortingGuides/FindProtocolAddressesForKailua'},
       ]
     },
