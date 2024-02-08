@@ -25,7 +25,7 @@ If you do not need it, set the two values to 0.
     + RestartReasonAddress can be found in a Qualcomm device's device tree.
     + Enter android or recovery, run the following shell cmd with root permission.
     + Output should like this:
-    ```
+    ```bash
     android:/# printf "RestartReasonAddress=0x%x\n" $((0x$(realpath /sys/firmware/devicetree/base/soc/qcom\,msm-imem@*/restart_reason@* | awk -F'[@/]' '{print $(NF-2)"+0x"$(NF)}')))
     RestartReasonAddress=0x146bf65c
     ```

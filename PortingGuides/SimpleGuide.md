@@ -11,7 +11,7 @@
 ___
 ## **Part 0.** Introduce some directories and files.
   - We only need to know few directories and files under `Platform/SurfaceDuo1Pkg/`
-    ```
+    ```bash
     ~/mu-msmnile$ tree Platforms/SurfaceDuo1Pkg/ -L 2 -d
     Platforms/SurfaceDuo1Pkg/
     |-- AcpiTables
@@ -73,7 +73,7 @@ ___
     - **PythonLibs/**
       * *Stores python libs.*
   - Let's take a closer look at `Device/nubia-tp1803`. 
-    ```
+    ```bash
     ~/mu-msmnile/Platforms/SurfaceDuo1Pkg/Device$ tree -L 1  nubia-tp1803/
     ├── ACPI
     ├── APRIORI.inc
@@ -122,7 +122,7 @@ ___
     4. Extract files from your device's xbl and put them under Binaries.
         + *Download and compile [UefiReader](https://github.com/WOA-Project/UEFIReader)*
         + *Connect your phone to your computer and execute the command on your computer.*
-          ```
+          ```bash
           adb shell su -c "dd if=/dev/block/by-name/xbl_a of=/sdcard/xbl.img"
           adb pull /sdcard/xbl.img .
           ```
@@ -130,7 +130,7 @@ ___
         + *Put output into `meizu-m928q/Binaries`.*
     5. Edit `${brand-codename}/DXE.inc`, `${brand-codename}/APRIORI.inc`, `${brand-codename}/DXE.dsc.inc`.
         + *See the difference by `diff`*
-          ```
+          ```bash
           $ diff meizu-m928q/Binaries/DXE.inc oneplus-guacamole/Binaries/DXE.inc 
           23d22
           < INF QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
@@ -151,7 +151,7 @@ ___
     11. Build it.
     12. Test it.
         + *Connect your phone to your computer and execute it on your computer.*
-          ```
+          ```bash
           adb reboot bootloader
           fastboot boot Build/meizu-m928q/meizu-m928q.img
           ```
@@ -180,14 +180,14 @@ ___
     * The most simple way to know where to patch:
       + Find one other device's original xxxDxe.efi and its patched xxxDxe.efi .
       + Dump hex and get where & what to patch.
-        ```
+        ```bash
         hexdump -C a_xxxDxe.efi > a.txt
         hexdump -C b_xxxDxe.efi > b.txt
         diff a.txt b.txt
         ```
         - Example: 
             * UFSDxe.efi (nabu):
-            ```
+            ```bash
             ~/mu-msmnile/Platforms/SurfaceDuo1Pkg/Device/xiaomi-nabu$ diff a.txt b.txt 
             383c383
             < 000025f0  00 00 80 52 c0 03 5f d6  fd 7b 03 a9 fd c3 00 91  |...R.._..{......|
@@ -212,11 +212,11 @@ ___
   - How to get dtb of my device? *assume in termux environment*
     * Download Magiskboot. ([Prebuilt](https://github.com/TeamWin/external_magisk-prebuilt/blob/android-11/prebuilt/))
     * Get boot image from your phone.
-      ```
+      ```bash
       sudo cp /dev/block/by-name/boot ~/split-appended-dtb/myboot.img
       ```
     * Split dtb from you phone's boot.
-      ```
+      ```bash
       ./magiskboot_arm unpack myboot.img
       ```
     * Renamed `kernel_dtb`(or `dtb`) to android-`codename`.dtb and put it into Device/*\<brand-codename\>*/DeviceTreeBlob/Android/.

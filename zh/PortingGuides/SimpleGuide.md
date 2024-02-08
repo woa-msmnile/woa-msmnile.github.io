@@ -11,7 +11,7 @@
 ___
 ## **步骤0.** 介绍一些目录和文件
   - 我们只需要了解`Platform/SurfaceDuo1Pkg/`目录下的一些目录和文件。
-    ```
+    ```bash
     ~/mu-msmnile$ tree Platforms/SurfaceDuo1Pkg/ -L 2 -d
     Platforms/SurfaceDuo1Pkg/
     |-- AcpiTables                    # 存放ACPI tables
@@ -57,7 +57,7 @@ ___
     ```
 
   - 近距离观察一下`Device/nubia-tp1803`。
-    ```
+    ```bash
     ~/mu-msmnile/Platforms/SurfaceDuo1Pkg/Device$ tree -L 1  nubia-tp1803/
     ├── ACPI                          # 存放设备的dsdt table
     ├── APRIORI.inc                   # Dxe的加载顺序。包含在SurfaceDuo1.fdf内
@@ -87,7 +87,7 @@ ___
         + *将输出文件放到`meizu-m928q/Binaries`.*
     5. 编辑 meizu-m928q文件夹中的`DXE.inc`, `APRIORI.inc`, `DXE.dsc.inc`.
         + *使用`diff`对比不同之处*
-          ```
+          ```bash
           $ diff meizu-m928q/Binaries/DXE.inc oneplus-guacamole/Binaries/DXE.inc 
           23d22
           < INF QcomPkg/Drivers/SimpleTextInOutSerialDxe/SimpleTextInOutSerial.inf
@@ -132,14 +132,14 @@ ___
     * 最简单的方法:
       + 找到另一个设备的原始xxxDxe.efi和它补丁过的 xxxDxe.efi .
       + hex对比一下，就知道应该patch哪里和patch什么了.
-        ```
+        ```bash
         hexdump -C a_xxxDxe.efi > a.txt
         hexdump -C b_xxxDxe.efi > b.txt
         diff a.txt b.txt
         ```
         - 例: 
             * UFSDxe.efi (nabu):
-            ```
+            ```bash
             ~/mu-msmnile/Platforms/SurfaceDuo1Pkg/Device/xiaomi-nabu$ diff a.txt b.txt 
             383c383
             < 000025f0  00 00 80 52 c0 03 5f d6  fd 7b 03 a9 fd c3 00 91  |...R.._..{......|
@@ -164,11 +164,11 @@ ___
   - 如何获得我的设备的dtb? *默认在termux环境中*
     * 下载Magiskboot. ([Prebuilt](https://github.com/TeamWin/external_magisk-prebuilt/blob/android-11/prebuilt/))
     * 提取设备的boot分区.
-      ```
+      ```bash
       sudo cp /dev/block/by-name/boot ~/split-appended-dtb/myboot.img
       ```
     * Magsikboot解包boot获得dtb.
-      ```
+      ```bash
       ./magiskboot_arm unpack myboot.img
       ```
     * 将`kernel_dtb`重命名为`android-设备代号.dtb`并放置在Device/品牌-设备代号/DeviceTreeBlob/Android/.

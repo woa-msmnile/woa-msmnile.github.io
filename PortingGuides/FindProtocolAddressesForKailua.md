@@ -10,17 +10,17 @@ ___
 ## Steps
   1. Get **uefi** partition from your phone:
       - In *termux* or adb shell:
-        ```
+        ```bash
         cp /dev/block/by-name/uefi_a /sdcard
         ```
   
   2. Use UefiReader to extract uefi_a image:
       - Windows:
-        ```
+        ```powershell
         UefiReader.exe <absolute-path-to-uefi_a> <absolute-path-to-output-dir>
         ```
       - Linux:
-        ```
+        ```bash
         sudo apt install dotnet-sdk-6.0
         git clone https://github.com/WOA-Project/UEFIReader
         cd UEFIReader/UEFIReader
