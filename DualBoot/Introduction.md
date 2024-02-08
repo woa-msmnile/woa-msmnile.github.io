@@ -33,7 +33,7 @@ flowchart TD
   subgraph hlos[HLOS]
     direction TB
     win[Windows]
-    other_os[Other Operation Systems]
+    other_os[Other Operating Systems]
     android_distribution[Linux/Android Distributions]
   end
 
