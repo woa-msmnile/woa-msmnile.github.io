@@ -9,8 +9,8 @@ export default withMermaid(
     title: "woa-msmnile",
     lastUpdated: true,
     head: [
-      ['link', { rel: 'icon', type: 'image/svg+xml', href: 'images/Logov2.1.svg' }],
-      ['link', { rel: 'icon', type: 'image/png', href: 'images/Logov2.1.png' }],
+      ['link', { rel: 'icon', type: 'image/svg+xml', href: 'images/Logov2.2.svg' }],
+      ['link', { rel: 'icon', type: 'image/png', href: 'images/Logov2.2.png' }],
     ],
 
     locales: {
