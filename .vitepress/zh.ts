@@ -34,7 +34,7 @@ export const zh = defineConfig({
       pattern: 'https://github.com/woa-msmnile/woa-msmnile.github.io/edit/main/:path'
     },
     footer: {
-      copyright: `版权所有 © 2022-${new Date().getFullYear()} woa-msmnile`
+      copyright: `网站 CC BY-NC-SA 4.0 | 版权所有 © 2022-${new Date().getFullYear()} woa-msmnile`
     },
   }
 })

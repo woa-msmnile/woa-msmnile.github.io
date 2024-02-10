@@ -18,7 +18,7 @@ export const en = defineConfig({
       pattern: 'https://github.com/woa-msmnile/woa-msmnile.github.io/edit/main/:path'
     },
     footer: {
-      copyright: `CopyRight © 2022-${new Date().getFullYear()} woa-msmnile`
+      copyright: `Site CC BY-NC-SA 4.0 | CopyRight © 2022-${new Date().getFullYear()} woa-msmnile`
     },
   }
 })
