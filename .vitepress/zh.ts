@@ -62,7 +62,14 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       items: [
         { text: '简易移植教程', link: '/PortingGuides/SimpleGuide'}
       ]
-    }
+    },
+    {
+      text: '调试Windows',
+      items: [
+        { text: '配置 KDNET', link: '/WindowsDebug/SetupKDNET.md'},
+        { text: '配置 KDCOM', link: '/WindowsDebug/SetupKDCOM.md'},
+      ]
+    },
   ]
 }
 
