@@ -1,8 +1,8 @@
 {
   "type": "module",
   "devDependencies": {
-    "mermaid": "^10.8.0",
-    "vitepress": "^1.0.0-rc.40",
+    "mermaid": "^10.9.0",
+    "vitepress": "^1.1.0",
     "vitepress-plugin-mermaid": "^2.0.16"
   },
   "scripts": {
