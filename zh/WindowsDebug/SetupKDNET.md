@@ -19,10 +19,13 @@
     ```
     ```powershell
     # 在电脑的终端中执行，请确保你已经安装adb并配置了环境变量
-    adb pull /sdcard/BCD .
+    adb pull /sdcard/BCD D:\
+    # 在确认已经推到手机以后，删除D:\BCD
+    del D:\BCD
     ```
   - 在电脑上打开一个**具有管理员权限**的终端，并设置调试模式：
     ```powershell
+    cd D:\
     bcdedit /store BCD /set "{default}" testsigning on
     bcdedit /store BCD /set "{default}" nointegritychecks on
     bcdedit /store BCD /set "{default}" debug on 
