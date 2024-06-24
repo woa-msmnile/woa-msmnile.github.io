@@ -47,7 +47,6 @@ export default withMermaid(
       },
       socialLinks: [
         { icon: 'github', link: 'https://github.com/woa-msmnile' },
-        { icon: 'discord', link: 'https://discord.gg/zfh6RxYwb5' }
       ],
     },
   })
