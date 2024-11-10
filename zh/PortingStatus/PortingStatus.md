@@ -1,5 +1,5 @@
 # 设备移植状态
-  - msmnilePkg [自述文件](https://github.com/woa-msmnile/msmnilePkg#target-list)
+  - mu_aloha_platforms [自述文件](https://github.com/Project-Aloha/mu_aloha_platforms#target-list)
   - XiaoMi9 [详细设备状态](https://github.com/qaz6750/XiaoMi9-Drivers/blob/main/Status.md)
 ## Windows 各设备支持状态
 > [!TIP]

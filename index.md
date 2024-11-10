@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "WOA-msmnile"
+  name: "Project Aloha"
   text: "Bring a New Life to Your Phone."
-  tagline: Based On SurfaceDuoPkg
+  tagline: Based on DuoWoA Project.
   actions:
     - theme: brand
       text: Documents

@@ -1,4 +1,4 @@
-# msmnilePkg 移植向导. 
+# mu_aloha_platforms 移植向导. 
 :::danger
   **⚠ 建议不要在谷歌、索尼和三星设备上尝试。**
 :::
@@ -105,7 +105,7 @@ ___
     8. Patch你的设备的dxe并放置在`PatchedBinaries/`文件夹下.
     9. 用`android-m928q.dtb`替换`android-guacamole.dtb`(你可以在`/sys/firmware/fdt`找到dtb, 或参照[补充说明](#补充说明))
     10. 用 `linux-m928q.dtb`替换`linux-guacamole.dtb`.(如果没有，可以通过`touch linux-m928q.dtb`创建一个假的)
-    11. 编译（编译方法参见[README.md](https://github.com/woa-msmnile/msmnilePkg/tree/main#build-instructions)）.
+    11. 编译（编译方法参见[README.md](https://github.com/Project-Aloha/mu_aloha_platforms/tree/main#build-instructions)）.
     12. 测试.
         + *建议使用fastboot boot命令热启动UEFI进行测试*
   - 如果移植成功，设备将进入UEFI Shell.
@@ -177,7 +177,7 @@ ___
     * 如果你可以启动Windows, 请尝试将其恢复`FALSE`.
     * 将MLVM设为`TRUE`会占用大约300MB运行内存.
 ___
-***不要忘记将你的设备和你的名字添加到[README](https://github.com/woa-msmnile/msmnilePkg/tree/main#target-list)中.***  
+***不要忘记将你的设备和你的名字添加到[README](https://github.com/Project-Aloha/mu_aloha_platforms/tree/main#target-list)中.***  
 ***感谢你的付出.***
 
 

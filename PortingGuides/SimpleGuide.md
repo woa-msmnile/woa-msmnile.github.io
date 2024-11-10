@@ -1,4 +1,4 @@
-# msmnilePkg Porting Guide. 
+# mu_aloha_platforms Porting Guide. 
 :::danger
  **⚠ Do not try it on Google devices, Sony devices or Samsung devices.**
 :::
@@ -225,5 +225,5 @@ ___
     * If you can boot windows, turn it to `FALSE` and have a try.
     * Set MLVM to `TRUE` will occupy about 300MB Ram.
 ___
-***Don't forget to add your device and maintainer into [README](https://github.com/woa-msmnile/msmnilePkg).***  
+***Don't forget to add your device and maintainer into [README](https://github.com/Project-Aloha/mu_aloha_platforms).***  
 ***Thanks for your hard works.***

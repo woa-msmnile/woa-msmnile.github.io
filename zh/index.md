@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "WOA-msmnile"
+  name: "Project-Aloha"
   text: "你的手机，焕发新生"
   tagline: 基于 SurfaceDuoPkg
   actions:

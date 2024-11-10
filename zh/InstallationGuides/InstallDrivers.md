@@ -12,15 +12,15 @@
 - 下载平台通用驱动包
   > 点击页面上的`Download`按钮下载即可.
   <img src="/InstallationGuides/Resources/InstallDrivers/HowToDownload1.png" width=40%/>
-  - 对于搭载SD855的设备, 驱动库位于 [msmnile-Drivers](https://github.com/woa-msmnile/msmnile-Drivers)
-  - 对于搭载SD720的设备, 驱动库位于 [Atoll-Drivers](https://github.com/woa-msmnile/Atoll-Drivers)
+  - 对于搭载SD855的设备, 驱动库位于 [msmnile-Drivers](https://github.com/Project-Aloha/msmnile-Drivers)
+  - 对于搭载SD720的设备, 驱动库位于 [Atoll-Drivers](https://github.com/Project-Aloha/Atoll-Drivers)
   - 其他平台以此类推.
 
 - 下载适用于单独设备的驱动包
   > 点击`Download`按钮下载即可.
   <img src="/InstallationGuides/Resources/InstallDrivers/HowToDownload2.png" width=40%/>
-  - 对于小米平板五, 仓库在 [Nabu](https://github.com/woa-msmnile/Raphael).
-  - 对于一加7T Pro, 仓库在 [Hotdog](https://github.com/woa-msmnile/Hotdog).
+  - 对于小米平板五, 仓库在 [Nabu](https://github.com/Project-Aloha/Raphael).
+  - 对于一加7T Pro, 仓库在 [Hotdog](https://github.com/Project-Aloha/Hotdog).
   - 对于其他设备, 可以参考[设备代号参考表](/ReferenceTables/DeviceCodenameReferenceTable.md)类推.
 
 - 手机进入大容量模式 [大容量模式](EnterUMS.md).

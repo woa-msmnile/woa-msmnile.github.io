@@ -6,7 +6,7 @@ import { zh } from './zh'
 // https://vitepress.dev/reference/site-config
 export default withMermaid(
   defineConfig({
-    title: "woa-msmnile",
+    title: "Project Aloha",
     lastUpdated: true,
     head: [
       ['link', { rel: 'icon', type: 'image/svg+xml', href: 'images/Logov2.2.svg' }],
@@ -46,7 +46,7 @@ export default withMermaid(
         }
       },
       socialLinks: [
-        { icon: 'github', link: 'https://github.com/woa-msmnile' },
+        { icon: 'github', link: 'https://github.com/Project-Aloha' },
       ],
     },
   })

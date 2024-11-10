@@ -6,7 +6,7 @@ export const en = defineConfig({
   themeConfig: {
     nav: [
       { text: 'Home', link: '/'},
-      { text: 'Documents', link: '/Introduction/msmnilePkg' },
+      { text: 'Documents', link: '/Introduction/mu_aloha_platforms' },
       { text: 'Videos', link: '/Videos/Introduction/Introduction' },
     ],
     sidebar: {
@@ -15,10 +15,10 @@ export const en = defineConfig({
     },
     editLink: {
       text: 'Edit this page on Github',
-      pattern: 'https://github.com/woa-msmnile/woa-msmnile.github.io/edit/main/:path'
+      pattern: 'https://github.com/Project-Aloha/project-aloha.github.io/edit/main/:path'
     },
     footer: {
-      copyright: `Site CC BY-NC-SA 4.0 | CopyRight © 2022-${new Date().getFullYear()} woa-msmnile`
+      copyright: `Site CC BY-NC-SA 4.0 | CopyRight © 2022-${new Date().getFullYear()} Project-Aloha`
     },
   }
 })
@@ -28,8 +28,8 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
     {
       text: 'Introduction',
       items: [
-        { text: 'woa-msmnile', link: '/Introduction/organization'},
-        { text: 'msmnilePkg', link: '/Introduction/msmnilePkg'},
+        { text: 'Project-Aloha', link: '/Introduction/organization'},
+        { text: 'mu_aloha_platforms', link: '/Introduction/mu_aloha_platforms'},
         { text: 'UEFI Porting Status', link: '/PortingStatus/PortingStatus'}
       ]
     },
@@ -46,6 +46,7 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
       text: 'Dual Boot',
       items: [
         { text: 'Introduction', link: '/DualBoot/Introduction'},
+        { text: 'Apply DualBoot', link:'/DualBoot/PatchKernel.md'},
         { text: 'Config', link: '/DualBoot/Config'},
         { text: 'Shell Code', link: '/DualBoot/ShellCode'},
       ]

@@ -31,10 +31,10 @@ export const zh = defineConfig({
     },
     editLink: {
       text: '在 Github 上编辑此页',
-      pattern: 'https://github.com/woa-msmnile/woa-msmnile.github.io/edit/main/:path'
+      pattern: 'https://github.com/Project-Aloha/project-aloha.github.io/edit/main/:path'
     },
     footer: {
-      copyright: `网站 CC BY-NC-SA 4.0 | 版权所有 © 2022-${new Date().getFullYear()} woa-msmnile`
+      copyright: `网站 CC BY-NC-SA 4.0 | 版权所有 © 2022-${new Date().getFullYear()} Project-Aloha`
     },
   }
 })
@@ -44,8 +44,8 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
     {
       text: '简介',
       items: [
-        { text: 'woa-msmnile', link: '/Introduction/organization'},
-        { text: 'msmnilePkg', link: '/Introduction/msmnilePkg'},
+        { text: 'Project-Aloha', link: '/Introduction/organization'},
+        { text: 'mu_aloha_platforms', link: '/Introduction/mu_aloha_platforms'},
         { text: '移植状态', link: '/PortingStatus/PortingStatus'}
       ]
     },
