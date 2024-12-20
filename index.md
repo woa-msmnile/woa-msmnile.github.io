@@ -16,7 +16,7 @@ hero:
       link: /Videos/Introduction/Introduction
 
 features:
-- title: "Tiêu đề bổ sung"
+- title: Name
     icon: 🎉
     details: "Thông tin chi tiết ở đây."
 ---
