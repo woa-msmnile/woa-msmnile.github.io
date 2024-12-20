@@ -3,33 +3,34 @@
 layout: home
 
 hero:
-  name: "Project Aloha"
-  text: "Bring a New Life to Your Phone."
-  tagline: Based on DuoWoA Project.
+  name: "Trang web của bạn"
+  text: "Ghi tiêu đề theo ý muốn của bạn."
+  tagline: Thông tin nhận ở đây!
+
   actions:
     - theme: brand
-      text: Documents
+      text: Tài liệu
       link: /Introduction/organization
     - theme: alt
-      text: Videos
+      text: Đoạn mã
       link: /Videos/Introduction/Introduction
 
 features:
-  - title: Stable
-    details: Powered by Project MU
+  - title: Ổn định
+    details: Thông tin nhập ở đây.
     icon: ⚙️
-  - title: Small
+  - title: Bé nhỏ
     icon: ⚡
-    details: Size < 10 MB
-  - title: Safe
+    details: Kích thước chỉ: < 10MB.
+  - title: An toàn
     icon: 💧
-    details: Each device uses their own firmware
-  - title: Simple
+    details: Mỗi thiết bị sử dụng riêng của họ bằng firmware.
+  - title: Đơn giản
     icon: 📗
-    details: Detailed Documents and Friendly build system
-  - title: Secure
+    details: Tài liệu chi tiết và hệ thống xây dựng thân thiện.
+  - title: Chắc chắn
     icon: 🔒
-    details: Secure Boot Ready
+    details: Sẵn sàng khởi động an toàn và bảo mật.
   - title: ''
     icon: ''
     details: ''
