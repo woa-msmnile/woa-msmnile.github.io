@@ -9,10 +9,10 @@ hero:
 
   actions:
     - theme: brand
-      text:Tài liệu
+      text: Tài liệu
       link: /Introduction/organization
     - theme: alt
-      text:Đoạn mã
+      text: Đoạn mã
       link: /Videos/Introduction/Introduction
 
 features:
