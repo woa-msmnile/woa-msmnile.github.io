@@ -20,8 +20,6 @@
     ```powershell
     # 在电脑的终端中执行，请确保你已经安装adb并配置了环境变量
     adb pull /sdcard/BCD D:\
-    # 在确认已经推到手机以后，删除D:\BCD
-    del D:\BCD
     ```
   - 在电脑上打开一个**具有管理员权限**的终端，并设置调试模式：
     ```powershell
@@ -35,6 +33,8 @@
     ```powershell
     # 在电脑的终端中执行，请确保你已经安装adb并配置了环境变量
     adb push BCD /sdcard
+    # 在确认已经推到手机以后，删除D:\BCD
+    del D:\BCD
     ```
     ```bash
     # 在手机上以root权限执行:
@@ -49,6 +49,7 @@
   - 点击`Net`
     + 在`Port Number`输入`50000`
     + 在`Key`中输入`1.1.1.1`
+  ![Windbg Configuration Kdnet](Resources/SetupKDNET/WindbgConfiguration.png)
   - 点击下方的`OK`
   ![Kdnet waiting for connection](Resources/SetupKDNET/KdNetWaiting.png)
 
