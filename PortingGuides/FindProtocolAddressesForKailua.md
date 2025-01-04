@@ -1,5 +1,5 @@
 # Find Protocol Addresses For Kailua
-:::warning
+:::warning WARNING
 This page is deprecated now, new uefi supports find address at run time.
 :::
 
