@@ -30,8 +30,8 @@ features:
   - title: Secure
     icon: 🔒
     details: Secure Boot Ready
-  - title: ''
-    icon: ''
-    details: ''
+  - title: Standardized
+    icon: 📏
+    details: Follow edk2 specifications
 ---
 
