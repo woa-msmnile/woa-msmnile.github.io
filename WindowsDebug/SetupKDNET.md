@@ -55,7 +55,7 @@
 
 ### Setup KDNET in Windbg
   - Opne Windbg(Preview)，Click the **File** button on the top left corner
-  - Click `Attach to kernel`(default section) under `Start Debugging`.
+  - Click `Attach to kernel` under `Start debugging`(default section).
   - Click `Net`(default section)
     + Type `50000` in `Port Number`
     + Type `1.1.1.1` in `Key`
