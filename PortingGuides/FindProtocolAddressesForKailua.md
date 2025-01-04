@@ -1,4 +1,8 @@
 # Find Protocol Addresses For Kailua
+:::warning
+This page is deprecated now, new uefi supports find address at run time.
+:::
+
 On Sm8550, many uefi drivers need ***scheduler*** protocol and ***xbldt*** protocol.  
 Our solution is to reserve the original *UEFI FD* region in XBL's memory map, find the addresses in decompile tool, then provide these protocols again.
 ___
