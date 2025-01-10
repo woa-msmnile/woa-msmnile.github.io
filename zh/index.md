@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Project-Aloha"
   text: "你的手机，焕发新生"
-  tagline: 基于 SurfaceDuoPkg
+  tagline: 基于 DuoWOA 项目
   actions:
     - theme: brand
       text: 文档
@@ -30,8 +30,8 @@ features:
   - title: 安全
     icon: 🔒
     details: Secure Boot支持
-  - title: ''
-    icon: ''
-    details: ''
+  - title: 规范化
+    icon: 📏
+    details: 遵循EDK2规范
 ---
 
