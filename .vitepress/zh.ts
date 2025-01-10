@@ -71,6 +71,13 @@ function sidebarDocs(): DefaultTheme.SidebarItem[] {
         { text: 'KDNET 远程桌面', link: '/WindowsDebug/KdNetRDP.md'},
       ]
     },
+    {
+      text: '参考表',
+      items: [
+        { text: "高通芯片代号参考", link: "/ReferenceTables/QCSiliconCodenameReferenceTable"},
+        { text: "设备代号参考", link: "/ReferenceTables/DeviceCodenameReferenceTable"},
+      ]
+    },
   ]
 }
 
